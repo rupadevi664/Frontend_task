@@ -364,7 +364,6 @@ TABLE
 
 table{
     width:100%;
-    min-width:650px;
     border-collapse:collapse;
     box-shadow:0 5px 20px rgba(0,0,0,0.2);
 }
