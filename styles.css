@@ -361,11 +361,6 @@ TABLE
     padding:70px 8%;
 }
 
-.table-container{
-    width:100%;
-    overflow-x:auto;
-    -webkit-overflow-scrolling:touch;
-}
 
 table{
     width:100%;
