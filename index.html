@@ -1,356 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Explorer - Discover Incredible India</title>
+
+    <title>Travel Explorer</title>
+
+    <!-- External CSS -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS (Mandatory) -->
+    <style>
+        html{
+            scroll-behavior:smooth;
+        }
+    </style>
+
 </head>
+
 <body>
-    <header>
-    <nav class="navbar">
 
-        <div class="logo">
-            <h2>Travel Explorer</h2>
-        </div>
+<!--================ NAVBAR START ================-->
 
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#destinations">Destinations</a></li>
-            <li><a href="#packages">Packages</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+<nav>
 
-        <a href="#booking" class="btn">Book Now Button</a>
+<div class="logo">
 
-    </nav>
-</header>
-<!--hero section-->
+<h2>Travel Explorer</h2>
+
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#destinations">Destinations</a></li>
+
+<li><a href="#packages">Packages</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<a href="#booking">
+
+<button class="book-btn"
+style="font-weight:bold;">
+Book Now
+</button>
+
+</a>
+
+</nav>
+
+<!--================ NAVBAR END ================-->
+
+
+
+<!--================ HERO SECTION START ================-->
+
 <section class="hero" id="home">
 
-    <div class="hero-content">
+<div class="hero-content">
 
-        <h1>Explore India Like Never Before</h1>
+<h1>Explore India Like Never Before</h1>
 
-        <p>
-            Discover breathtaking destinations, exciting adventure tours,
-            comfortable stays and unforgettable travel experiences across India.
-        </p>
+<p>
+Discover breathtaking mountains, beaches, royal palaces,
+and unforgettable adventures across India.
+</p>
 
-        <div class="hero-buttons">
-            <a href="#booking" class="btn">Book Trip</a>
+<div class="hero-buttons">
+<a href="#booking" class="btn1">Book Trip</a>
 
-            <a href="https://www.youtube.com" target="_blank" class="btn2">
-                Watch Video
-            </a>
-           
-        </div>
+<a href="https://youtu.be/IQf4M8t9oJ8" target="_blank" class="btn2">
+Watch Video
+</a>
+</div>
 
-    </div>
+</div>
+
+
 
 </section>
+
+<!--================ HERO SECTION END ================-->
+<!-- ================= POPULAR DESTINATIONS ================= -->
+
 <section class="destinations" id="destinations">
 
-    <h2 class="section-title">Popular Destinations</h2>
+<h2 class="section-title">Popular Destinations</h2>
 
-    <div class="destination-container">
+<div class="destination-grid">
 
-        <!-- Card 1 -->
+<article class="card">
+<img src="images/Goa.jpg" alt="Goa">
+<h3>Goa</h3>
+<p>Location: Goa</p>
+<h4>₹12,999</h4>
+<button>Explore</button>
+</article>
 
-        <article class="card">
+<article class="card">
+<img src="images/Kerala.jpg" alt="Kerala">
+<h3>Kerala</h3>
+<p>Location: Kerala</p>
+<h4>₹15,499</h4>
+<button>Explore</button>
+</article>
 
-            
-            <div class="card-content">
-                <img src="images/Goa.jpg" alt="goa">
-                 <h3>Goa</h3>
-                <p>Location : Goa</p>
-                <h4>₹15,999</h4>
+<article class="card">
+<img src="images/Kashmir.jpg" alt="Kashmir">
+<h3>Kashmir</h3>
+<p>Location: Jammu & Kashmir</p>
+<h4>₹22,999</h4>
+<button>Explore</button>
+</article>
 
-                <a href="#" class="btn">Explore</a>
-            </div>
+<article class="card">
+<img src="images/Jaipur.jpg" alt="Jaipur">
+<h3>Jaipur</h3>
+<p>Location: Rajasthan</p>
+<h4>₹11,999</h4>
+<button>Explore</button>
+</article>
 
-        </article>
-    <article class="card">
-        <div class="card-content">
-            <img src="images/Kerala.jpg" alt="kerala">
-            <h3>kerala</h3>
-            <p>Location:Kerala</p>
-            <a href="#" class="btn">Explore</a>
-             </div> 
-               </article>
+<article class="card">
+<img src="images/Ooty.jpg" alt="Ooty">
+<h3>Ooty</h3>
+<p>Location: Tamil Nadu</p>
+<h4>₹13,999</h4>
+<button>Explore</button>
+</article>
 
+<article class="card">
+<img src="images/Ladakh.jpg" alt="Ladakh">
+<h3>Ladakh</h3>
+<p>Location: Ladakh</p>
+<h4>₹24,999</h4>
+<button>Explore</button>
+</article>
 
-               <article class="card">
-
-                <div class="card-content">
-                    <img src="images/Kashmir.jpg" alt="kashmir">
-                    <h3>Kashmir</h3>
-                    <p>Location:Kashmir</p>
-                    <h4>₹25,999</h4>
-
-                    <a href="#" class="btn">Explore</a>
-                </div>
-            </article>
-
-           <article class="card">
-
-            <div class="card-content">
-                <img src="images/Jaipur.jpg" alt="jaipur">
-                <h3>Jaipur</h3>
-                <p>Location:Jaipur</p>
-                <h4>₹18,999</h4>
-                <a href="#" class="btn">Explore</a>
-            </div>
-           </article>
-
-           <article class="card">
-            <div class="card-content">
-            <img src="images/Ooty.jpg" alt="Ooty" style="width:300px;" "height=150px;">
-            <h3>Ooty</h3>
-            <p>Location:Ooty</p>
-            <h4>₹22,999</h4>
-            <a href="#" class="btn">Explore</a> 
-            </div>
-           </article>
-
-           <article class="card">
-            <div class="card-content">
-            <img src="images/Ladakh.jpg" alt="Ladakh">
-                <h3>Ladakh</h3>
-                <p>Location:Ladakh</p>
-                <h4>₹35,999</h4>
-                <a href="#" class="btn">Explore</a> 
-            </div>
-           </article>
-    </section>
-    <section class="why-us" id="why-us">
-
-    <h2 class="section-title">Why Choose Us</h2>
-
-    <div class="why-container">
-
-        <article class="why-card">
-            <h3>💰 Affordable Packages</h3>
-            <p>
-                Enjoy budget-friendly trips with premium services and exciting offers.
-            </p>
-        </article>
-
-        <article class="why-card">
-            <h3>🧑‍✈️ Experienced Guides</h3>
-            <p>
-                Our professional guides make every journey safe and memorable.
-            </p>
-        </article>
-
-        <article class="why-card">
-            <h3>🛡 Safe Travel</h3>
-            <p>
-                Your safety is our highest priority throughout your vacation.
-            </p>
-        </article>
-
-        <article class="why-card">
-            <h3>📞 24/7 Support</h3>
-            <p>
-                Our customer support team is available anytime during your trip.
-            </p>
-        </article>
-
-    </div>
+</div>
 
 </section>
-<section class="packages" id="packages">
 
-    <h2 class="section-title">Upcoming Tour Packages</h2>
+<!-- ================= WHY CHOOSE US ================= -->
 
-    <table>
+<section class="why-us">
 
-        <thead>
+<h2 class="section-title">Why Choose Us</h2>
 
-            <tr>
-                <th>Package Name</th>
-                <th>Days</th>
-                <th>Price</th>
-                <th>Available Seats</th>
-            </tr>
+<div class="why-grid">
 
-        </thead>
+<div class="why-card">
+<h3>Affordable Packages</h3>
+<p>Best travel plans at budget-friendly prices.</p>
+</div>
 
-        <tbody>
+<div class="why-card">
+<h3>Experienced Guides</h3>
+<p>Professional guides for a safe journey.</p>
+</div>
 
-            <tr>
-                <td>Goa Beach Tour</td>
-                <td>3</td>
-                <td>₹15,999</td>
-                <td>20</td>
-            </tr>
+<div class="why-card">
+<h3>Safe Travel</h3>
+<p>Your safety and comfort are our priority.</p>
+</div>
 
-            <tr>
-                <td>Kerala Backwaters</td>
-                <td>5</td>
-                <td>₹22,999</td>
-                <td>15</td>
-            </tr>
+<div class="why-card">
+<h3>24/7 Support</h3>
+<p>Our travel experts are available anytime.</p>
+</div>
 
-            <tr>
-                <td>Kashmir Paradise</td>
-                <td>6</td>
-                <td>₹28,500</td>
-                <td>12</td>
-            </tr>
-
-            <tr>
-                <td>Jaipur Heritage</td>
-                <td>4</td>
-                <td>₹18,999</td>
-                <td>18</td>
-            </tr>
-
-            <tr>
-                <td>Ooty Nature Tour</td>
-                <td>4</td>
-                <td>₹16,999</td>
-                <td>16</td>
-            </tr>
-
-            <tr>
-                <td>Ladakh Adventure</td>
-                <td>7</td>
-                <td>₹34,999</td>
-                <td>10</td>
-            </tr>
-
-        </tbody>
-
-    </table>
+</div>
 
 </section>
+
+<!-- ================= TOUR PACKAGES TABLE ================= -->
+
+<section id="packages">
+
+<h2 class="section-title">Upcoming Tour Packages</h2>
+
+<table>
+
+<tr>
+<th>Package Name</th>
+<th>Days</th>
+<th>Price</th>
+<th>Available Seats</th>
+</tr>
+
+<tr>
+<td>Goa Beach Tour</td>
+<td>3 Days</td>
+<td>₹12,999</td>
+<td>25</td>
+</tr>
+
+<tr>
+<td>Kerala Backwaters</td>
+<td>5 Days</td>
+<td>₹15,499</td>
+<td>18</td>
+</tr>
+
+<tr>
+<td>Kashmir Paradise</td>
+<td>6 Days</td>
+<td>₹22,999</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>Jaipur Heritage</td>
+<td>4 Days</td>
+<td>₹11,999</td>
+<td>20</td>
+</tr>
+
+<tr>
+<td>Ooty Hills</td>
+<td>4 Days</td>
+<td>₹13,999</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td>Ladakh Adventure</td>
+<td>7 Days</td>
+<td>₹24,999</td>
+<td>10</td>
+</tr>
+
+</table>
+
+
+</section>
+<!-- ================= BOOKING FORM ================= -->
+
 <section class="booking" id="booking">
 
-    <h2 class="section-title">Book Your Trip</h2>
+<h2 class="section-title">Book Your Dream Trip</h2>
 
-    <form>
+<form>
 
-        <label for="name">Full Name</label>
-        <input type="text" id="name" placeholder="Enter Full Name" required>
+<label>Full Name</label>
+<input type="text" placeholder="Enter Full Name" required>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Enter Email" required>
+<label>Email</label>
+<input type="email" placeholder="Enter Email" required>
 
-        <label for="mobile">Mobile Number</label>
-        <input type="tel" id="mobile" placeholder="Enter Mobile Number" required>
+<label>Mobile Number</label>
+<input type="tel" placeholder="Enter Mobile Number" required>
 
-        <label for="destination">Destination</label>
+<label>Destination</label>
 
-        <select id="destination">
+<select required>
+<option>Select Destination</option>
+<option>Goa</option>
+<option>Kerala</option>
+<option>Kashmir</option>
+<option>Jaipur</option>
+<option>Ooty</option>
+<option>Ladakh</option>
+</select>
 
-            <option>Goa</option>
-            <option>Kerala</option>
-            <option>Kashmir</option>
-            <option>Jaipur</option>
-            <option>Ooty</option>
-            <option>Ladakh</option>
+<label>Number of Travelers</label>
+<input type="number" min="1" placeholder="Travelers">
 
-        </select>
+<label>Travel Date</label>
+<input type="date">
 
-        <label for="travellers">Number of Travelers</label>
-        <input type="number" id="travellers" min="1" max="20">
+<label>Message</label>
+<textarea rows="5" placeholder="Write your message"></textarea>
 
-        <label for="date">Travel Date</label>
-        <input type="date" id="date">
+<div class="form-buttons">
+<button type="submit">Book Now</button>
+<button type="reset">Reset</button>
+</div>
 
-        <label for="message">Message</label>
-
-        <textarea id="message" rows="5"
-            placeholder="Write your message here..."></textarea>
-
-        <div class="form-buttons">
-
-            <input type="submit" value="Book Now" class="btn">
-
-            <input type="reset" value="Reset" class="btn">
-
-        </div>
-
-    </form>
-
-</section>
-<!--customer-section-->
-<section class="reviews" id="reviews">
-
-    <h2 class="section-title">What Our Customers Say</h2>
-
-    <div class="review-container">
-
-        <article class="review-card">
-            <h3>⭐⭐⭐⭐⭐</h3>
-            <p>
-                "Amazing experience! The trip was well organized and the hotels
-                were excellent. Highly recommended."
-            </p>
-            <h4>- Rahul Sharma</h4>
-        </article>
-
-        <article class="review-card">
-            <h3>⭐⭐⭐⭐⭐</h3>
-            <p>
-                "Beautiful destinations and friendly guides. Everything was
-                planned perfectly."
-            </p>
-            <h4>- Priya Reddy</h4>
-        </article>
-
-        <article class="review-card">
-            <h3>⭐⭐⭐⭐⭐</h3>
-            <p>
-                "Best travel company I've ever booked with. Affordable packages
-                and great customer support."
-            </p>
-            <h4>- Sneha Patel</h4>
-        </article>
-
-    </div>
+</form>
 
 </section>
 
+<!-- ================= PHOTO GALLERY (BONUS) ================= -->
 
+<section class="gallery" id="gallery">
+
+<h2 class="section-title">Travel Gallery</h2>
+
+<div class="gallery-grid">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPCtVwJ_JGLCO9APi5Dl5aRN89hjRZwzRD2lAjoWmVNA&s=10" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvhKPgWVqYfKkWJRBRvlMD4apDavJXa8KWbYp6AP3zOg&s=10" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnVqn7AVJtlO5IhZQl0z-JUricFKPVv-JyiXRjPEctg&s=10" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5LYkB8gKI-ZnCEU57GtJk1WtN18yVcOv-6zLOQIjh3g&s=10" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl7rJobZlV6rqXCk4IaYEKWZSjO2ocBpvS61dtspUvYg&s" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRt_6k9Qo17GQcbcn-lXnCM-CJ1K9Likf1Vng1tNeHw&s=10" alt="">
+
+</div>
+
+</section>
+
+<!-- FAQ SECTION -->
+
+<section class="faq">
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<details>
+<summary>How can I book a trip?</summary>
+<p>You can fill out the booking form and click the "Book Now" button.</p>
+</details>
+
+<details>
+<summary>Are tour guides included?</summary>
+<p>Yes, all premium packages include experienced tour guides.</p>
+</details>
+
+<details>
+<summary>Can I cancel my booking?</summary>
+<p>Yes. You can cancel according to our cancellation policy.</p>
+</details>
+
+<details>
+<summary>Do you provide customized packages?</summary>
+<p>Yes, we offer customized travel packages based on your preferences.</p>
+</details>
+
+</section>
+
+
+<!-- ================= CUSTOMER REVIEWS ================= -->
+
+<section class="reviews">
+
+<h2 class="section-title">Customer Reviews</h2>
+
+<div class="review-container">
+
+<article class="review-card">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW0PY-okYZm5MJhVq84LhVeBsnjzVVJHjuxM1IRfeH5Q&s=10" alt="Customer">
+
+<h3>Rahul Sharma</h3>
+
+<p>"Amazing experience! Everything was perfectly managed."</p>
+
+</article>
+
+<article class="review-card">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVU1ZovDxBI7aszeh0IKdfoMwrAniA7UOEXMWF2_eQhg&s=10" alt="Customer">
+
+<h3>Priya Singh</h3>
+
+<p>"Beautiful destinations and excellent customer service."</p>
+
+</article>
+
+<article class="review-card">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdYOXv7J_6BN57LdMHhw5d_4a6dmzUnthQJoUGzSwn6A&s=10" alt="Customer">
+
+<h3>kavya hassan</h3>
+
+<p>"Affordable packages with unforgettable memories."</p>
+
+</article>
+
+</div>
+
+</section>
 
 <!-- ================= FOOTER ================= -->
 
 <footer id="contact">
 
-    <div class="footer-content">
+<div class="footer-container">
 
-        <h2>Travel Explorer</h2>
+<div>
 
-        <p>
-            Explore India's most beautiful destinations with us.
-            Your journey begins here!
-        </p>
+<h3>Travel Explorer</h3>
 
-        <div class="footer-links">
+<p>Discover Incredible India with us and explore our beautiful country with our expert tour guides.</p>
 
-            <a href="#home">Home</a>
-            <a href="#destinations">Destinations</a>
-            <a href="#packages">Packages</a>
-            <a href="#booking">Booking</a>
-            <a href="#gallery">Gallery</a>
+</div>
 
-        </div>
+<div>
 
-        <p class="copyright">
-            © 2026 Travel Explorer. All Rights Reserved.
-        </p>
+<h3>Quick Links</h3>
 
-    </div>
+<a href="#home">Home</a><br>
+<a href="#destinations">Destinations</a><br>
+<a href="#packages">Packages</a><br>
+<a href="#booking">Booking</a>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>Email : travel@explorer.com</p>
+
+<p>Phone : +91 9876543210</p>
+
+</div>
+
+<div>
+
+<h3>Follow Us</h3>
+
+<p><a href="https://www.facebook.com/">Facebook</a></p>
+
+<p><a href="https://www.instagram.com/">Instagram</a></p>
+
+<p><a href="https://www.twitter.com/">Twitter</a></p>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright">
+© 2026 Travel Explorer | All Rights Reserved.
+</p>
 
 </footer>
-
-</body>
-</html>
-
 
 </body>
 </html>
