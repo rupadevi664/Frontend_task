@@ -358,33 +358,41 @@ TABLE
 ==========================*/
 
 #packages{
-padding:70px 8%;
+    padding:70px 8%;
+}
+
+.table-container{
+    width:100%;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
 }
 
 table{
-width:100%;
-border-collapse:collapse;
-box-shadow:0 5px 20px rgba(0,0,0,.2);
+    width:100%;
+    min-width:650px;
+    border-collapse:collapse;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
 }
 
 th{
-background:#008080;
-color:white;
-padding:15px;
+    background:#008b8b;
+    color:#fff;
+    padding:15px;
+    text-align:center;
 }
 
 td{
-padding:15px;
-text-align:center;
-border:1px solid #ddd;
+    padding:15px;
+    text-align:center;
+    border:1px solid #ddd;
 }
 
 tr:nth-child(even){
-background:#f2f2f2;
+    background:#f2f2f2;
 }
 
 tr:hover{
-background:#ffe8dc;
+    background:#fff8dc;
 }
 /*=====================
 BOOKING FORM
