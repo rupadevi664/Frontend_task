@@ -1,0 +1,521 @@
+/* =========================
+   GOOGLE FONT
+========================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+/* =========================
+   COMMON
+========================= */
+
+.section-title{
+    text-align:center;
+    font-size:2.2rem;
+    margin:60px 0 30px;
+    color:#0d6efd;
+}
+
+.btn{
+    display:inline-block;
+    background:#0d6efd;
+    color:#fff;
+    padding:12px 28px;
+    text-decoration:none;
+    border-radius:5px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#084298;
+}
+
+.btn2{
+    display:inline-block;
+    margin-left:15px;
+    padding:12px 28px;
+    background:#fff;
+    color:#0d6efd;
+    text-decoration:none;
+    border-radius:5px;
+    transition:.3s;
+}
+
+.btn2:hover{
+    background:#0d6efd;
+    color:#fff;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#fff;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.navbar{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+}
+
+.logo h2{
+    color:#0d6efd;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#0d6efd;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    height:75vh;
+    background:url("images/Hero.jpg") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero-content{
+    background:rgba(0,0,0,.55);
+    padding:40px;
+    border-radius:10px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:25px;
+}
+
+/* =========================
+   DESTINATIONS
+========================= */
+
+.destinations{
+    width:90%;
+    margin:auto;
+    padding-bottom:60px;
+}
+
+.destination-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+    color:#0d6efd;
+}
+
+.card-content p{
+    margin-bottom:10px;
+}
+
+.card-content h4{
+    color:#28a745;
+    margin-bottom:15px;
+}
+/* =========================
+   WHY CHOOSE US
+========================= */
+
+.why-us{
+    width:90%;
+    margin:60px auto;
+}
+
+.why-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.why-card{
+    background:#fff;
+    padding:25px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+}
+
+.why-card h3{
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+/* =========================
+   TOUR PACKAGES
+========================= */
+
+.packages{
+    width:90%;
+    margin:60px auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+th{
+    background:#0d6efd;
+    color:#fff;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+    border:1px solid #ddd;
+}
+
+tr:nth-child(even){
+    background:#f5f5f5;
+}
+
+tr:hover{
+    background:#dbeafe;
+}
+
+/* =========================
+   BOOKING FORM
+========================= */
+
+.booking{
+    width:80%;
+    margin:60px auto;
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:600;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+textarea{
+    resize:none;
+}
+
+.form-buttons{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+}
+
+.form-buttons input{
+    cursor:pointer;
+    border:none;
+}
+
+/* =========================
+   REVIEWS
+========================= */
+
+.reviews{
+    width:90%;
+    margin:60px auto;
+}
+
+.review-container{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.review-card{
+    background:#fff;
+    width:320px;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.review-card:hover{
+    transform:scale(1.05);
+}
+
+.review-card h3{
+    color:orange;
+    margin-bottom:15px;
+}
+
+.review-card h4{
+    margin-top:15px;
+    color:#0d6efd;
+}
+
+/* =========================
+   GALLERY
+========================= */
+
+.gallery{
+    width:90%;
+    margin:60px auto;
+}
+
+.gallery-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.gallery-container img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+    transition:.4s;
+}
+
+.gallery-container img:hover{
+    transform:scale(1.05);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    background:#0d6efd;
+    color:#fff;
+    text-align:center;
+    padding:40px 20px;
+    margin-top:60px;
+}
+
+.footer-links{
+    margin:20px 0;
+}
+
+.footer-links a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 15px;
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
+
+.copyright{
+    margin-top:20px;
+    font-size:14px;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* Tablet */
+
+@media(max-width:992px){
+
+.destination-container{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.gallery-container{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.why-container{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+.nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:2.4rem;
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.destination-container{
+    grid-template-columns:1fr;
+}
+
+.gallery-container{
+    grid-template-columns:1fr;
+}
+
+.why-container{
+    grid-template-columns:1fr;
+}
+
+.review-container{
+    flex-direction:column;
+    align-items:center;
+}
+
+.nav-links{
+    flex-direction:column;
+    gap:10px;
+}
+
+.hero{
+    height:70vh;
+}
+
+.hero-content{
+    padding:20px;
+}
+
+.hero h1{
+    font-size:2rem;
+}
+
+.hero p{
+    font-size:15px;
+}
+
+.form-buttons{
+    flex-direction:column;
+}
+
+table{
+    display:block;
+    overflow-x:auto;
+}
+
+}
+
+/* Small Mobile */
+
+@media(max-width:480px){
+
+.section-title{
+    font-size:28px;
+}
+
+.hero h1{
+    font-size:30px;
+}
+
+.hero p{
+    font-size:14px;
+}
+
+.btn,
+.btn2{
+    display:block;
+    margin:10px auto;
+    width:180px;
+    text-align:center;
+}
+
+}
