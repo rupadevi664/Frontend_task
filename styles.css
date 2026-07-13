@@ -70,7 +70,7 @@ body{
 ========================= */
 
 header{
-    position:sticky;
+    position:static;
     top:0;
     z-index:1000;
     background:#fff;
